@@ -1,0 +1,81 @@
+*{
+	margin:0px;
+	padding:0px;
+	text-align: center;
+}
+
+html,body{
+	height: 100%;
+}
+
+header {
+	min-height: 10%;
+	width: 100%;
+	background-color: #008B8B;
+}
+
+nav {
+	font-family: Garamond; 
+	font-style: normal; 
+	font-variant: normal;
+	min-height: 2.5%;
+	padding: 0.25%;
+	width: 99.5%;
+	background-color: #909090;
+}
+
+section{
+	background-image: url(../img/monstersInc.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover; 
+	min-height: 69%;
+	width: 95%;
+	padding: 2.5%;
+	float: left;
+}
+
+footer {
+	min-height: 2.5%;
+	padding: 0.5%;
+	width: 99%;
+	background-color: #008B8B;
+	clear: both;
+}
+
+.gameBoardElements{
+	float: left;
+	visibility: visible;
+}
+
+.allLayers{
+	width: 480px;
+	height: 480px;
+	position: absolute;
+}
+
+#memoryGameHeader{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#gameBoard{
+	width: 480px;
+	height: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 10px solid #66FF33;
+}
+
+#topLayer{
+	z-index: 3;
+}
+
+#middleLayer{
+	z-index: 2;
+}
+
+#bottomLayer{
+	z-index: 1;
+}
